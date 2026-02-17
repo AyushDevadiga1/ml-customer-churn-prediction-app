@@ -1,48 +1,33 @@
-# Core Data Science Stack
-numpy>=1.24.0
-pandas>=2.0.0
-scipy>=1.10.0
+# Machine Learning & Stats
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.6.0
+catboost==1.2.8
+statsmodels==0.14.6
+joblib==1.5.3
 
-# Machine Learning & AI
-scikit-learn>=1.2.0
-xgboost>=1.7.0
-statsmodels>=0.14.0
+# Data Manipulation
+pandas==3.0.0
+numpy==2.4.2
+scipy==1.17.0
+openpyxl==3.1.5
 
 # Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
-graphviz>=0.20.0
-plotly
-dtreeviz
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.5.2
+dtreeviz==2.3.2
+missingno==0.5.2
 
-# Data Handling
-missingno
-
-# Path Handling 
-os
-
-# # Data Acquisition 
-requests>=2.31.0
-lxml>=4.9.0
-
-# Development Tools
-ipykernel>=6.23.0
-jupyter>=1.0.0
-notebook>=6.5.0
-joblib>=1.3.0
-
-# Environment and Data handling
-python-dotenv>=1.0.0
-regex>=2023.6.0
-xlrd>=2.0.0
-openpyxl>=3.1.0
-
-#Backend and Validation
-email-validator==2.3.0
+# Web & API
 fastapi==0.128.3
-pillow==12.1.0
-pydantic==2.12.5
-pydantic_core==2.41.5
-reportlab==4.4.9
-starlette==0.52.1
 uvicorn==0.40.0
+pydantic==2.12.5
+requests==2.32.5
+httpx==0.28.1
+
+# Interactive Environment
+jupyterlab==4.5.4
+notebook==7.5.3
+ipython==9.10.0
+ipywidgets==8.1.8
