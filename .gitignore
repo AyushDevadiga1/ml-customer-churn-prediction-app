@@ -5,4 +5,4 @@
 __pycache__
 
 # Catboost cache
-model_training\catboost_info
+**/catboost_info/
